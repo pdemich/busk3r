@@ -6,7 +6,7 @@ import './Menu.css';
 class App extends Component {
   render() {
     return (
-	<div id="outer-container">
+	<div >
       <Menu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" }>
 		<a id="home" className="menu-item" href="/">Home</a>
         <a id="about" className="menu-item" href="/">About</a>

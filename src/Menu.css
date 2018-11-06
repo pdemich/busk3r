@@ -14,8 +14,8 @@
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 24px;
-  width: 24px;
+  height: 32px;
+  width: 32px;
 }
 
 /* Color/shape of close button cross */
@@ -37,12 +37,16 @@
 
 /* Wrapper for item list */
 .bm-item-list {
+  
   color: #b8b7ad;
   padding: 0.8em;
+  box-sizing: inherit;
 }
 
 /* Individual item */
 .bm-item {
+  font-family: 'Droid Sans', serif;
+  color: #b8b7ad;
   display: inline-block;
 }
 
