@@ -14,7 +14,9 @@ class App extends Component {
           <a onClick={this.showSettings} className="menu-item--small" href="">Settings</a>
         </Menu>
         <main id="page-wrap">
-
+          <div>
+            This is the main page of the thingy
+          </div>
         </main>
       </div>
     );
