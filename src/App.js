@@ -1,4 +1,4 @@
-import { slide as Menu } from 'react-burger-menu'
+import { scaleDown as Menu } from 'react-burger-menu'
 import React, { Component } from 'react';
 import './App.css';
 import './Menu.css';
